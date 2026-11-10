@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use SCOUT, please cite the software (and the paper, once published)."
+title: "SCOUT: Self-Driving Scan Paths in Atomic Force Microscopy (selfdriving_afm)"
+version: 0.4.0
+date-released: 2026-11-10
+authors:
+  - family-names: Checa
+    given-names: Marti
+    affiliation: "Center for Nanophase Materials Sciences, Oak Ridge National Laboratory"
+repository-code: "https://github.com/<owner>/<repo>"
+keywords:
+  - atomic force microscopy
+  - autonomous microscopy
+  - Gaussian process
+  - adaptive scanning
+  - MCP

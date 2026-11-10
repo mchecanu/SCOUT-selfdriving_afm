@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "selfdriving-afm": {
+      "command": "C:\\path\\to\\python.exe",
+      "args": [
+        "C:\\path\\to\\selfdriving_afm\\scout_mcp.py"
+      ]
+    }
+  }
+}

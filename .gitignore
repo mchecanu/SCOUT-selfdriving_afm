@@ -1,0 +1,28 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+.venv/
+venv/
+.pytest_cache/
+
+# data and outputs: runs, figures, animations (data go to Zenodo, not git)
+scan_data/
+*.npz
+*.npy
+*.ibw
+*.png
+*.gif
+*.mp4
+*.pdf
+analysis/final/
+analysis/sweep*/
+analysis/sim_*/
+analysis/fig4*/
+analysis/hybrid*/
+
+# per-computer hardware paths -- every microscope's install lives somewhere
+# different, so this is local-only; copy hardware_paths.example.json to make one
+hardware_paths.json

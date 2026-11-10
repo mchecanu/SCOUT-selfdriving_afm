@@ -1,0 +1,11 @@
+numpy
+scipy
+scikit-learn
+matplotlib
+psutil
+
+# Only needed on the real instrument (Windows + PyScanner), not for simulation/dev:
+# pywin32
+
+# MCP server for LLM clients (selfdriving_afm/mcp_server.py, scout_mcp.py), Python >= 3.10:
+# mcp>=1.2

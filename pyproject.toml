@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "selfdriving-afm"
+version = "0.4.0"
+description = "SCOUT: self-driving scan paths for atomic force microscopy -- edge following / exploring, grid refine, GP pathfinder and hybrids, with simulation and PyScanner backends and an MCP server for LLM clients."
+readme = "README.md"
+# The package itself runs on Python 3.8 (the instrument PC); the MCP server needs 3.10+ (mcp SDK).
+requires-python = ">=3.8"
+authors = [{ name = "Marti Checa" }]
+# license: set once the ORNL software release is approved (see README "License")
+keywords = ["AFM", "scanning probe microscopy", "autonomous microscopy", "Gaussian process", "MCP"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = [
+    "numpy",
+    "scipy",
+    "scikit-learn",
+    "matplotlib",       # (pulls in pillow, used for GIFs)
+    "psutil",           # RAM checks before long rasters (reference_raster, user_raster, stepwise)
+]
+
+[project.optional-dependencies]
+mcp = ["mcp>=1.2"]             # the MCP server (selfdriving_afm/mcp_server.py), Python >= 3.10
+hardware = ["pywin32"]         # the instrument PC (PyScanner ActiveX, Igor COM)
+dev = ["pytest"]
+
+[project.scripts]
+selfdriving-afm-mcp = "selfdriving_afm.mcp_server:main"
+scout-mcp = "selfdriving_afm.mcp_server:main"
+
+[tool.setuptools.packages.find]
+include = ["selfdriving_afm*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
