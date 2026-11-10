@@ -7,7 +7,7 @@ authors:
   - family-names: Checa
     given-names: Marti
     affiliation: "Center for Nanophase Materials Sciences, Oak Ridge National Laboratory"
-repository-code: "https://github.com/<owner>/<repo>"
+repository-code: "https://github.com/mchecanu/SCOUT-selfdriving_afm"
 keywords:
   - atomic force microscopy
   - autonomous microscopy
