@@ -67,7 +67,7 @@ run["x"], run["y"], run["z"], run["raster"], run["channels"], run["priors"]
 xu, yu = sd.to_um(run, run["x"], run["y"])        # micrometres
 ```
 
-With the SCOUT package (GitHub; `pip install ".[mcp]"`):
+With the SCOUT package (https://doi.org/10.5281/zenodo.24482057, https://github.com/mchecanu/SCOUT-selfdriving_afm; `pip install ".[mcp]"`):
 
 - `python examples/reconstruct_with_scout.py data/07_hybrids/<file>.npz` — levelled TV maps,
   run vs raster, in µm.

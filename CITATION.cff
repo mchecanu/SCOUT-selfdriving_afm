@@ -8,6 +8,7 @@ authors:
   - family-names: Checa
     given-names: Marti
     affiliation: "Center for Nanophase Materials Sciences, Oak Ridge National Laboratory"
+doi: 10.5281/zenodo.24482057
 repository-code: "https://github.com/mchecanu/SCOUT-selfdriving_afm"
 keywords:
   - atomic force microscopy
@@ -15,3 +16,10 @@ keywords:
   - Gaussian process
   - adaptive scanning
   - MCP
+references:
+  - type: dataset
+    title: "SCOUT: self-driving scan paths in atomic force microscopy - example datasets (lite, v4)"
+    authors:
+      - family-names: Checa
+        given-names: Marti
+    doi: 10.5281/zenodo.24121506

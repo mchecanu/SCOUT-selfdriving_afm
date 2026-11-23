@@ -1,5 +1,8 @@
 # SCOUT -- self-driving scan paths for atomic force microscopy
 
+[![Software DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24482057.svg)](https://doi.org/10.5281/zenodo.24482057)
+[![Data DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24121506.svg)](https://doi.org/10.5281/zenodo.24121506)
+
 `selfdriving_afm` (SCOUT) lets the AFM tip decide where to go next from what it is measuring,
 instead of following a predefined raster. Every mode runs the same planner code in simulation
 and on the instrument (an Asylum Cypher driven through PyScanner's FPGA X/Y waveforms), and an
@@ -52,7 +55,9 @@ raster, calibration, priors, features); `datasets.make_lite` writes a lite copy;
 ## License and citation
 
 BSD 3-Clause (`LICENSE`). Please cite the paper and the software as in `CITATION.cff`.
-Example datasets: Zenodo (see "Data").
+
+- Software (this version, v0.4.0): https://doi.org/10.5281/zenodo.24482057
+- Example datasets (lite, v4): https://doi.org/10.5281/zenodo.24121506
 
 ## Simulation: testing every mode on a known topography
 
