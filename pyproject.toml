@@ -10,10 +10,11 @@ readme = "README.md"
 # The package itself runs on Python 3.8 (the instrument PC); the MCP server needs 3.10+ (mcp SDK).
 requires-python = ">=3.8"
 authors = [{ name = "Marti Checa" }]
-# license: set once the ORNL software release is approved (see README "License")
+license = { text = "BSD-3-Clause" }
 keywords = ["AFM", "scanning probe microscopy", "autonomous microscopy", "Gaussian process", "MCP"]
 classifiers = [
     "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
     "Operating System :: OS Independent",
     "Intended Audience :: Science/Research",
     "Topic :: Scientific/Engineering :: Physics",

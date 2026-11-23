@@ -51,8 +51,8 @@ raster, calibration, priors, features); `datasets.make_lite` writes a lite copy;
 
 ## License and citation
 
-License: to be added once the ORNL software release is approved (no license = all rights
-reserved). Please cite as in `CITATION.cff`.
+BSD 3-Clause (`LICENSE`). Please cite the paper and the software as in `CITATION.cff`.
+Example datasets: Zenodo (see "Data").
 
 ## Simulation: testing every mode on a known topography
 

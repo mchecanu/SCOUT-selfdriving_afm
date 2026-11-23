@@ -2,6 +2,7 @@ cff-version: 1.2.0
 message: "If you use SCOUT, please cite the software (and the paper, once published)."
 title: "SCOUT: Self-Driving Scan Paths in Atomic Force Microscopy (selfdriving_afm)"
 version: 0.4.0
+license: BSD-3-Clause
 date-released: 2026-11-10
 authors:
   - family-names: Checa
